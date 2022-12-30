@@ -1,3 +1,78 @@
-body {
-    background-color: purple;
+
+.submenu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.topmenu > li:last-child{
+    margin-right: 0;
+}
+.fa{
+    font-family: "FontAwesome";
+    color: inherit;
+    padding-left: 10px;
+}
+.spot{
+    background: #f0f0f0;
+}
+h1 {
+    background: #f0f0f0; /* Цвет фона под заголовком */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    padding: 20px; /* Поля вокруг текста */
+}
+
+/* Поисковая система */
+.d2 input, .d2 button, .d1 button{
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+.d2 input{
+    width: 13%;
+    height: 35px;
+    background: #ffffff;
+    position: absolute;
+    top: 40px;
+    left: 1080px;
+    padding-left: 25px;
+}
+.d2 button{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 44px;
+    right: 87px;
+    background: #ffffff;
+    cursor: pointer;
+}
+.d2 button::before{
+    color: #f0f0f0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Логин и пароль */
+.d1 button{
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+.d1 button{
+    height: 30px;
+    position: absolute;
+    top: 43px;
+    right: 50px;
+    background: #ffffff;
+    cursor: pointer;
+}
+.d1 button::before{
+    color: #f0f0f0;
+    font-size: 20px;
+    font-weight: bold;
 }
